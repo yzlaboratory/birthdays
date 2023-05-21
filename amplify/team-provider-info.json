@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-birthdays-staging-193118-authRole",
+      "UnauthRoleArn": "arn:aws:iam::772161516556:role/amplify-birthdays-staging-193118-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::772161516556:role/amplify-birthdays-staging-193118-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-birthdays-staging-193118-deployment",
+      "UnauthRoleName": "amplify-birthdays-staging-193118-unauthRole",
+      "StackName": "amplify-birthdays-staging-193118",
+      "StackId": "arn:aws:cloudformation:eu-central-1:772161516556:stack/amplify-birthdays-staging-193118/3b31e590-f420-11ed-be05-0233d8f88d9a",
+      "AmplifyAppId": "d3pw6ppqwaqgo2"
+    },
+    "categories": {
+      "auth": {
+        "birthdays": {}
+      }
+    }
+  }
+}
