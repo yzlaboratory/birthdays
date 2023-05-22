@@ -1,0 +1,45 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "birthdaysf97033cc_identitypool_f97033cc",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "birthdf97033cc",
+    "userPoolName": "birthdaysf97033cc_userpool_f97033cc",
+    "autoVerifiedAttributes": [
+      "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+      "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+      "email"
+    ],
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+      "email"
+    ],
+    "userpoolClientReadAttributes": [
+      "email"
+    ],
+    "userpoolClientLambdaRole": "birthdf97033cc_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "f97033cc",
+    "resourceName": "birthdaysf97033cc",
+    "authSelections": "identityPoolAndUserPool",
+    "useDefault": "default",
+    "userPoolGroupList": [],
+    "serviceName": "Cognito",
+    "usernameCaseSensitive": false,
+    "useEnabledMfas": true
+  }
+}

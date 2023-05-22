@@ -13,7 +13,13 @@
     },
     "categories": {
       "auth": {
-        "birthdays": {}
+        "birthdaysf97033cc": {}
+      },
+      "storage": {
+        "birthdays08f0d961": {
+          "bucketName": "birthdaystorage",
+          "region": "eu-central-1"
+        }
       }
     }
   }
