@@ -33,5 +33,31 @@
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
     }
+  },
+  "parameters": {
+    "AMPLIFY_storage_clubtothemoon3f1344dd_bucketName": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "clubtothemoon3f1344dd"
+        }
+      ]
+    },
+    "AMPLIFY_storage_clubtothemoon3f1344dd_region": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "clubtothemoon3f1344dd"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "clubtothemoon3f1344dd": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3",
+      "serviceType": "imported"
+    }
   }
 }

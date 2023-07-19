@@ -1,4 +1,28 @@
 {
+  "main": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-clubtothemoon-main-152147-authRole",
+      "UnauthRoleArn": "arn:aws:iam::772161516556:role/amplify-clubtothemoon-main-152147-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::772161516556:role/amplify-clubtothemoon-main-152147-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-clubtothemoon-main-152147-deployment",
+      "UnauthRoleName": "amplify-clubtothemoon-main-152147-unauthRole",
+      "StackName": "amplify-clubtothemoon-main-152147",
+      "StackId": "arn:aws:cloudformation:eu-central-1:772161516556:stack/amplify-clubtothemoon-main-152147/5e213630-f8b4-11ed-91cd-02e7952b285e",
+      "AmplifyAppId": "d1en93tvsbsm0k"
+    },
+    "categories": {
+      "storage": {
+        "clubtothemoon3f1344dd": {
+          "bucketName": "yzlaboratory.dev",
+          "region": "eu-central-1"
+        }
+      },
+      "auth": {
+        "clubtothemoon": {}
+      }
+    }
+  },
   "staging": {
     "awscloudformation": {
       "AuthRoleName": "amplify-amplifyd3c27dad22254-staging-150622-authRole",
