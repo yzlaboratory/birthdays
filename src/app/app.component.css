@@ -1,0 +1,16 @@
+:host {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  max-width: 100%;
+}
+
+#hero-logo {
+  height: 15%;
+  background-color: var(--main-color);
+}
+
+#hero-banner {
+  height: 30%;
+  overflow: hidden;
+}

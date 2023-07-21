@@ -4,17 +4,13 @@ import { CommonModule } from '@angular/common';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { Amplify } from 'aws-amplify';
 import awsconfig from './aws-exports';
+import { AppComponent } from './app/app.component';
 
 @Component({
   selector: 'my-app',
   standalone: true,
-  imports: [CommonModule],
-  template: `
-    <h1>Hello from {{ name }}!</h1>
-    <a target="_blank" href="https://angular.io/start">
-      Learn more about Angular
-    </a>
-  `,
+  template: ` <app></app> `,
+  imports: [CommonModule, AppComponent],
 })
 export class App {
   name = 'Angular';

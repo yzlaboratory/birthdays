@@ -1,0 +1,41 @@
+<a
+  [href]="'#image' + counter.getValue()"
+  (click)="reduceCounter($event)"
+  id="prev-button"
+  #prev
+>
+  <span class="material-symbols-outlined"> arrow_back_ios_new </span>
+</a>
+<div id="hero-banner-scroll-container">
+  <div id="hero-images">
+    <div class="hero-image" id="image1">
+      <picture>
+        <img
+          src="https://s3.eu-central-1.amazonaws.com/yzlaboratory.dev/mannschaftsbild.jpg"
+      /></picture>
+      <label>Vorbereitung: Alle blau</label>
+    </div>
+    <div class="hero-image" id="image2">
+      <picture>
+        <img
+          src="https://s3.eu-central-1.amazonaws.com/yzlaboratory.dev/mathiaszöhler.jpg"
+      /></picture>
+      <label>Endlich 30: Darauf trink ich!</label>
+    </div>
+    <div class="hero-image" id="image3">
+      <picture>
+        <img
+          src="https://s3.eu-central-1.amazonaws.com/yzlaboratory.dev/heimsieg.jpg"
+      /></picture>
+      <label>3:1 Heimsieg zum Klassenerhalt</label>
+    </div>
+  </div>
+</div>
+<a
+  #nextButton
+  [href]="'#image' + counter.getValue()"
+  (click)="incrementCounter($event)"
+  id="next-button"
+>
+  <span class="material-symbols-outlined"> arrow_forward_ios </span>
+</a>

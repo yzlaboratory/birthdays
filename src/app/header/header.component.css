@@ -1,0 +1,32 @@
+:host {
+  display: flex;
+  height: 100%;
+  max-width: 100%;
+}
+
+.header-container {
+  display: flex;
+  flex-flow: row-nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+}
+
+.menu {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 200;
+}
+
+.menu > span {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.search span.material-symbols-outlined {
+  font-size: var(--step-0);
+  padding-right: 0.5em;
+  color: white;
+}
