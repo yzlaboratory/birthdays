@@ -1,0 +1,24 @@
+:host {
+  width: 95%;
+}
+
+#news-header {
+  width: 100%;
+  height: 5svh;
+}
+
+#news-header-first-part {
+  height: 100%;
+  width: 90%;
+  background-color: var(--color-main);
+}
+
+#news-header-second-part {
+  height: 100%;
+  width: 10%;
+  background-color: white;
+}
+
+img {
+  height: 80%;
+}

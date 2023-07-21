@@ -14,6 +14,7 @@
   --step-5: clamp(2.8rem, calc(2.45rem + 1.77vw), 3.82rem);
 
   --main-color: #1735b1;
+  --second-accent: #f9feff;
 }
 
 *,
