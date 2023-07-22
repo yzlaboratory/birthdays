@@ -4,4 +4,9 @@
     <img src="/assets/img/logo2.png" />
   </div>
 </div>
-<app-news-card></app-news-card>
+<div>
+  <app-news-card
+    *ngFor="let newspiece of newspieces"
+    [news]="newspiece"
+  ></app-news-card>
+</div>

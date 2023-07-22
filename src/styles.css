@@ -17,6 +17,10 @@
   --second-accent: #f9feff;
 }
 
+my-app {
+  height: 100%;
+  widt: 100%;
+}
 *,
 *::before,
 *::after {

@@ -15,7 +15,7 @@
 
 #news-header-first-part {
   height: 100%;
-  width: 85%;
+  width: 90%;
   background-color: var(--main-color);
   color: white;
   display: flex;
@@ -23,14 +23,7 @@
   align-items: center;
   font-weight: 700;
   font-size: var(--step--2);
-}
-
-#news-header-first-part::after,
-#news-header-first-part::before {
-  position: absolute;
-  transform: skew(0, -25deg);
-  background: black;
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 80%);
+  clip-path: polygon(0 0, 0 100%, calc(100% - 3svh) 100%, 100% 0);
 }
 
 #news-header-second-part {
@@ -44,4 +37,5 @@
 
 img {
   height: 95%;
+  //transform: translateX(-0.75svh);
 }

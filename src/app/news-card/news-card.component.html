@@ -1,1 +1,12 @@
-<p>news-card works!</p>
+<div class="card-container">
+  <img src="{{ news.imagesource }}" />
+  <div id="content">
+    <div class="tag">{{ news.tag }}</div>
+    <h1>{{ news.header }}</h1>
+    <p>{{ news.content }}</p>
+  </div>
+  <div class="footer">
+    <label class="date">{{ news.date }}</label
+    ><button><span class="material-symbols-outlined"> share </span></button>
+  </div>
+</div>
