@@ -14,7 +14,7 @@
 
 #hero-banner {
   height: 30%;
-  overflow: hidden;
+  display: flex;
 }
 
 .minimal-tabs {
